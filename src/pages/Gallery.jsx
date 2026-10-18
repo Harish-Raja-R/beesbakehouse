@@ -56,8 +56,8 @@ export function Gallery() {
     {
       id: 5,
       image: mixerFloralImg,
-      title: "Floral Bakery Card & Packaging",
-      subtitle: "Handcrafted packaging designed for gifting",
+      title: "Handcrafted Gift Box Packaging",
+      subtitle: "Artisanal pastry box tied with twine, blush ribbon & dried botanicals",
       rotation: "-rotate-1",
       tapeColor: "washi-tape-sage",
       aspect: "aspect-square",
@@ -74,8 +74,8 @@ export function Gallery() {
     {
       id: 7,
       image: stationeryImg,
-      title: "Bakery Branding & Orders",
-      subtitle: "Charming blush and parchment stationery",
+      title: "Handmade Order Slips & Honeybee Seal",
+      subtitle: "Vintage parchment slips, gold bee wax stamp & kraft labels",
       rotation: "-rotate-2",
       tapeColor: "washi-tape-blush",
       aspect: "aspect-square",
@@ -83,8 +83,8 @@ export function Gallery() {
     {
       id: 8,
       image: socialCardImg,
-      title: "Connected on Instagram",
-      subtitle: "@thebeesbakehouse community moments",
+      title: "Daily Bakery Moments",
+      subtitle: "Sharing freshly baked slices & coffees on @thebeesbakehouse",
       rotation: "rotate-1",
       tapeColor: "washi-tape-sage",
       aspect: "aspect-square",

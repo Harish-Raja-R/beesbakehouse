@@ -494,7 +494,7 @@ export function Home() {
               <div className="aspect-square rounded overflow-hidden bg-[#FFF4E5]">
                 <img
                   src={bakerCardImg}
-                  alt="Bakery card with fresh ingredients and baking tools"
+                  alt="Farm-fresh butter, rich cocoa, vanilla pods, and honey dipper on rustic bakery table"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                   width="300"
@@ -502,7 +502,7 @@ export function Home() {
                 />
               </div>
               <p className="mt-3 text-center font-serif text-sm font-semibold text-[#422414]">
-                Handcrafted With Care
+                Pure Ingredients & Craft
               </p>
             </div>
 
@@ -530,7 +530,7 @@ export function Home() {
               <div className="aspect-square rounded overflow-hidden bg-[#FFF4E5]">
                 <img
                   src={mixerFloralImg}
-                  alt="Artisanal floral bakery packaging card"
+                  alt="Handcrafted pastry gift box tied with rustic twine and blush ribbon with dried flowers"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                   width="300"
@@ -538,7 +538,7 @@ export function Home() {
                 />
               </div>
               <p className="mt-3 text-center font-serif text-sm font-semibold text-[#422414]">
-                Handcrafted Packaging
+                Artisanal Gift Packaging
               </p>
             </div>
           </div>
