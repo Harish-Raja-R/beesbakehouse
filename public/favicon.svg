@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="honeyGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF4E5"/>
+      <stop offset="100%" stop-color="#EAD7B5"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-color="#422414" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  
+  <!-- Outer Vintage Frame -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#honeyGlow)" stroke="#761C35" stroke-width="2.5" />
+  <rect x="5" y="5" width="54" height="54" rx="13" fill="none" stroke="#D6A54A" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Bee Mascot -->
+  <g filter="url(#shadow)" transform="translate(1, 0)">
+    <!-- Wings -->
+    <path d="M28 20 C23 13, 31 9, 36 15 C37 17, 36 21, 33 22 Z" fill="#FFFFFF" fill-opacity="0.85" stroke="#422414" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M34 18 C37 12, 45 13, 44 19 C43 22, 40 23, 37 23 Z" fill="#FFFFFF" fill-opacity="0.85" stroke="#422414" stroke-width="1.2" stroke-linejoin="round"/>
+    
+    <!-- Bee Body -->
+    <ellipse cx="32" cy="33" rx="12" ry="10" transform="rotate(-15 32 33)" fill="#D6A54A" stroke="#422414" stroke-width="1.5"/>
+    
+    <!-- Bee Stripes -->
+    <path d="M28 24 C30 29, 29 36, 26 41" stroke="#422414" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M33 24 C35 30, 34 37, 31 42" stroke="#422414" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Bee Head & Smile -->
+    <circle cx="39" cy="28" r="7" fill="#EAD7B5" stroke="#422414" stroke-width="1.5"/>
+    <circle cx="41" cy="27" r="1.5" fill="#422414"/>
+    <circle cx="43" cy="29" r="1.5" fill="#F5D6D8"/>
+    <path d="M40 31 Q42 33 44 31" fill="none" stroke="#422414" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Antennae -->
+    <path d="M41 22 Q43 17 46 18" fill="none" stroke="#422414" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M38 21 Q38 16 36 17" fill="none" stroke="#422414" stroke-width="1.2" stroke-linecap="round"/>
+    
+    <!-- Honey Pot -->
+    <g transform="translate(29, 37) rotate(-10)">
+      <path d="M4 2 L12 2 L14 10 Q14 13 8 13 Q2 13 2 10 Z" fill="#761C35" stroke="#422414" stroke-width="1"/>
+      <ellipse cx="8" cy="2" rx="4" ry="1.2" fill="#D6A54A"/>
+      <circle cx="8" cy="7" r="2.2" fill="#D6A54A"/>
+    </g>
+  </g>
+</svg>

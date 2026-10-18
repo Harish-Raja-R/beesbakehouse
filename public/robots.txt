@@ -1,0 +1,5 @@
+# The Bees Bake House - robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://thebeesbakehouse.com/sitemap.xml
